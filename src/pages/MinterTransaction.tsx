@@ -51,7 +51,7 @@ export const MinterTransaction: React.FC = () => {
       <span>The following button is going to mint an NFT, and send the transaction to the blockchain.</span>
       <p>Need to wait few secondes after submitting</p>
       <button className="mt-2 !rounded-xl p-2 border-0 !bg-gradient-to-r !from-blue-400 !to-purple-500 !shadow-xl" onClick={createTransaction}>
-        Mint a SFT
+        Mint a NFT
       </button>
     </div>
   );
