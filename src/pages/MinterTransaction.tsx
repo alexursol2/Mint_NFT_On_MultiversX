@@ -50,6 +50,9 @@ export const MinterTransaction: React.FC = () => {
     <div className="flex flex-col justify-center items-center w-full tracking-wide ">
       <span>The following button is going to mint an NFT, and send the transaction to the blockchain.</span>
       <p>Need to wait few secondes after submitting</p>
+      <br></br>
+      <img src="https://crypto-academy.org/wp-content/uploads/2023/05/First-European-Institutional-NFT-Marketplace-Goes-Live-On-MultiversX-NEW.png"></img>
+      <br></br>
       <button className="mt-2 !rounded-xl p-2 border-0 !bg-gradient-to-r !from-blue-400 !to-purple-500 !shadow-xl" onClick={createTransaction}>
         Mint a NFT
       </button>
